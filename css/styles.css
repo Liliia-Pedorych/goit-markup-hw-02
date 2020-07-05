@@ -138,3 +138,37 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+/* Примеры работ */
+.filter-item-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: var(--title-color);
+  background-color: #f5f4fa;
+}
+.filter-item-btn:hover,
+.filter-item-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.works-list-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+.works-list-item-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--text-color);
+}
+.works-list-item-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #ffffff;
+}
