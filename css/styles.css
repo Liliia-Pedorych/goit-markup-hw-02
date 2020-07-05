@@ -73,14 +73,25 @@ body {
 /* Преимущества */
 .subtitle {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-color);
 }
 .description {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--text-color);
+}
+/* Чем мы занимаемся */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-color);
+}
+.services-list-item .subtitle {
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
 }
