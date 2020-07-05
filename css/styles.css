@@ -36,6 +36,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
+.address {
+  font-style: normal;
+}
 .navigation-list-item-link:hover,
 .navigation-list-item-link:focus,
 .address-list-item-link:hover,
@@ -111,4 +114,27 @@ body {
   line-height: 1.19;
   text-align: center;
   color: var(--text-color);
+}
+
+/* Постоянные клиенты */
+
+/* Футер */
+.footer .logo {
+  color: #ffffff;
+}
+.address-map {
+  font-weight: 400;
+  line-height: 1.71;
+  color: #212121;
+}
+.address-contact {
+  font-weight: 400;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.join {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
 }
